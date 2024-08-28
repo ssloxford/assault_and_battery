@@ -1,0 +1,1 @@
+{"v": "0.2.0", "time": "2024-05-16 11:38:42", "description": "Double sweep", "columns": ["time", "it", "freq1", "freq2", "power", "voltage_dl3021", "current_dl3021"], "fmt_string": ["%s", "%i", "%f", "%f", "%f", "%f", "%f"], "datafile": "dcdc6.0.csv", "userdata": {"v_source": 12, "v_set": 4.2, "i_set": 1, "v_load": 3.5}},

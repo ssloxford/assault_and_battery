@@ -1,0 +1,1 @@
+{"v": "0.2.0", "time": "2023-04-21 14:22:06", "description": "Current sensor measurement", "columns": ["date", "freq", "power", "voltage_scope", "voltage_load", "current_load", "sns_voltage_sensor", "sns_current_sensor"], "fmt_string": ["%s", "%f", "%f", "%f", "%f", "%f", "%f", "%f"], "datafile": "cs4_below_2A.0.csv", "userdata": {}},

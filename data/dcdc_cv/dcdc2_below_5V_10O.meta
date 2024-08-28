@@ -1,0 +1,1 @@
+{"v": "0.2.0", "time": "2023-03-22 17:15:39", "description": "DCDC Voltage measurement", "columns": ["date", "freq", "power", "voltage_ds2302"], "fmt_string": ["%s", "%f", "%f", "%f"], "datafile": "dcdc2_below_5V_10O.0.csv", "userdata": {}},

@@ -1,0 +1,1 @@
+{"v": "0.2.0", "time": "2023-04-17 16:38:38", "description": "Current sensor measurement", "columns": ["date", "freq", "power", "sns_current_scope", "voltage_dl3021", "current_dl3021"], "fmt_string": ["%s", "%f", "%f", "%f", "%f", "%f"], "datafile": "cs2_above_0A.0.csv", "userdata": {}},

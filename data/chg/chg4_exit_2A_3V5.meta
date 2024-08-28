@@ -1,0 +1,1 @@
+{"v": "0.2.0", "time": "2023-04-06 18:40:57", "description": "Charger current measurement, with 10W amplifier", "columns": ["date", "freq", "power", "voltage_ds2302", "voltage_dl3021", "current_dl3021"], "fmt_string": ["%s", "%f", "%f", "%f", "%f", "%f"], "datafile": "chg4_exit_2A_3V5.0.csv", "userdata": {}},
