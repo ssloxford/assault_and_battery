@@ -13,7 +13,8 @@ This repository contains the data collection scripts in `code/`:
 - `chg_cc_measurement.py`: Measurements on battery chargers in the CC stage.
 - `cs_measurement.py`: Measurements of current sensors being fed a set current.
 - `power_measurement.py`: Measurements on various devices, where the power is varied instead of frequency.
-- 
+- `plots.ipynb`: Code that loads and plots our measured data. This part of the artifact can be re-run without any hardware requirements.
+
 Running this code requires the same measurements instruments used to run the experiments.
 They are provided as an example for using the measurement library.
 
@@ -80,7 +81,10 @@ sudo apt update
 sudo apt install python3-pip jupyter-core jupyter-notebook "fonts-cmu"
 # Install python modules
 # Version of numpy is pinned to ensure binary compatbility with pandas
-pip install matplotlib seaborn asyncio numpy==1.26.4 pandas 
+pip install matplotlib seaborn asyncio numpy==1.26.4 pandas
+# OPTIONAL: Install VISA library (only needed for experiments using lab instruments)
+pip install pyvisa pyvisa-py
+
 # Make sure matplotlib finds the font
 python3 -c "exec(\"import matplotlib.font_manager\nmatplotlib.font_manager._load_fontmanager(try_read_cache=False)\")"
 
